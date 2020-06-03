@@ -1,6 +1,0 @@
-@import url(./_button/popup__profile_button.css);
-.popup__profile.popup__profile {
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-top: 203px;
-}

@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // учит вебпа
 const WebpackMd5Hash = require('webpack-md5-hash'); // пакет для отслеживания и обновления хеша
 const webpack = require('webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // плагин для дополнительной оптимизации css
+
 const isDev = process.env.NODE_ENV === 'development'; // добавляет стили, добавленные через @import, в финальную сборку
 
 

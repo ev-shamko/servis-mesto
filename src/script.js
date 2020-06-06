@@ -15,7 +15,7 @@ import { Card } from "./js/Card";
 const api = new Api({
     baseUrl: 'https://praktikum.tk/cohort10',
     headers: {
-        authorization: '', //здесь должен быль ключ авторизации. Если его нет в кавычках, скрипты не будут работать. Если здесь нет ключа, то он, скорее всего, лежит в файле .key в корневой папке проекта в локальном репозитории
+        authorization: '3fc69959-d32c-40df-bba7-4d30f433aedc',
         'Content-Type': 'application/json'
     }
 });
@@ -151,5 +151,3 @@ document.forms.editProfile.addEventListener('submit', (event) => {
             console.error(`Ошибка при редактировании профиля: ${error}`);
         });
 });
-
-console.warn('В этой сборке отсутствует ключ авторизации. Скопируйте ключ авторизации из файла .key.txt в script.js, чтобы получать данные с сервера.');

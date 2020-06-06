@@ -2,7 +2,7 @@
     "name": "servis-mesto",
     "version": "1.0.0",
     "description": "Service to post photos of places you've visited",
-    "main": "script.js",
+    "main": "src/script.js",
     "scripts": {
         "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
         "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",

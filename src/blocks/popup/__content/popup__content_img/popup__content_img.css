@@ -1,0 +1,15 @@
+.popup__content_img.popup__content_img {
+    width: auto;
+    min-height: auto;
+    background-color: transparent;
+    border-radius: 0px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__content_img.popup__content_img {
+        width: auto;
+    }
+}

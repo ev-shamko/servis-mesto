@@ -1,0 +1,13 @@
+.popup__error {
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: 48px;
+}
+
+.popup__error:last-of-type {
+    margin-top: 119px;
+}
